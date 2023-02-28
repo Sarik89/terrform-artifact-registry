@@ -7,11 +7,3 @@ module my-repository {
     }
 }
 
-module nodejs-repository {
-    source = "./module"
-    artifact-config = {
-        repository_id = "nodejs-repo"
-        location = "us-central1"
-
-    }
-}
